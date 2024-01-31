@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-image: url('image4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.sign-up {
+  border-radius: 20px;
+  background: none;
+  border: 2px solid black;
+  backdrop-filter: blur(5px);
+  margin: 10px;
+  padding: 15px;
+}
+
+.sign-up h3 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-box input {
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 45px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.terms {
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.terms a {
+  text-decoration-line: none;
+  color: deeppink;
+}
+
+.terms span {
+  font-weight: bold;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.terms input {
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+}
+
+.btn1 {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.registered p {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.registered a {
+  text-decoration-line: none;
+  color: deeppink;
+}
